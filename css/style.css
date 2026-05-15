@@ -4,6 +4,7 @@
 :root {
     --primary-blue: #4B769F;
     --mission-green: #708B62;
+    --amber-gold: #C8892B;
     --background-tan: #DCD7C4;
     --white: #ffffff;
     --dark: #2c3e50;
@@ -192,7 +193,7 @@ p {
 .hero-tagline {
     font-size: 2rem;
     font-weight: var(--font-weight-semibold);
-    color: var(--mission-green);
+    color: var(--amber-gold);
     margin-bottom: 1rem;
     font-style: italic;
 }
@@ -356,7 +357,7 @@ p {
 }
 
 .page-hero .hero-tagline {
-    color: var(--mission-green);
+    color: var(--amber-gold);
 }
 
 .page-subtitle {
