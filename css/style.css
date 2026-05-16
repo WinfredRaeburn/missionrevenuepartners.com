@@ -117,9 +117,14 @@ p {
 }
 
 .nav-logo {
-    height: 180px !important;
+    height: 220px !important;
     width: auto !important;
     display: block;
+    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.10));
+    transition: transform 0.2s ease;
+}
+.nav-logo:hover {
+    transform: scale(1.03);
 }
 
 .brand-name {
