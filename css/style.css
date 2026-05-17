@@ -937,19 +937,36 @@ p {
     .hero-mobile-fixed .hero-content {
     }
     
-    /* Page heroes mobile */
-    .page-hero {
-        padding: 60px 20px;
-        min-height: 100vh;
+    /* Page heroes mobile - all pages */
+    .about-hero,
+    .services-hero,
+    .pricing-hero,
+    .contact-hero {
+        padding: 40px 15px !important;
+        min-height: 100vh !important;
         background-size: 140% !important;
+        align-items: center !important;
     }
     
     .page-hero .container {
-        margin-top: 20vh;
-        padding: 20px;
-        max-width: 100%;
-        text-align: center;
-        margin-top: 15vh;
+        margin-top: 0 !important;
+        padding: 20px !important;
+        width: 100% !important;
+    }
+    
+    .page-hero h1 {
+        font-size: 2.2rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .page-hero .hero-tagline {
+        font-size: 1.3rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .page-hero .page-subtitle {
+        font-size: 1rem !important;
+        margin-bottom: 1.5rem !important;
     }
     
     .hero-mobile-fixed .hero-title {
