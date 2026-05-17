@@ -168,10 +168,13 @@ p {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(44, 62, 80, 0.75), rgba(44, 62, 80, 0.75)), url('../images/hero-bg.jpg?v=1779022975') center/cover no-repeat;
-    padding: 140px 0 100px;
+    background: linear-gradient(rgba(44, 62, 80, 0.6), rgba(44, 62, 80, 0.6)), url('../images/hero-bg.jpg?v=1779022975') center top/cover no-repeat;
+    padding: 180px 0 140px;
     text-align: center;
     color: var(--white);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
 }
 
 .hero .hero-title {
@@ -185,6 +188,7 @@ p {
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .hero-title {
@@ -350,9 +354,16 @@ p {
 
 /* Page Hero (Sub-pages) */
 .page-hero {
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('../images/hero-bg.jpg?v=1779022975') center/cover no-repeat;
-    padding: 140px 0 80px;
+    background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), url('../images/hero-bg.jpg?v=1779022975') center top/cover no-repeat;
+    padding: 180px 0 120px;
     text-align: center;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.page-hero .container {
+    width: 100%;
 }
 
 .page-hero h1 {
