@@ -364,18 +364,40 @@ p {
     margin: 0;
 }
 
-/* Page Hero (Sub-pages) */
+/* Page Hero (Sub-pages) - Base */
 .page-hero {
-    background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), url('../images/hero-bg.jpg?v=1779022975') center top/cover no-repeat;
-    padding: 180px 0 120px;
+    padding: 120px 0;
     text-align: center;
-    min-height: 50vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+    color: var(--white);
 }
 
 .page-hero .container {
     width: 100%;
+}
+
+/* Individual Page Heroes */
+.about-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/about-hero.png') center center/cover no-repeat;
+    background-size: 120%;
+}
+
+.services-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/services-hero.png') center center/cover no-repeat;
+    background-size: 120%;
+}
+
+.pricing-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/pricing-hero.png') center center/cover no-repeat;
+    background-size: 120%;
+}
+
+.contact-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/contact-hero.png') center center/cover no-repeat;
+    background-size: 120%;
 }
 
 .page-hero h1 {
@@ -913,6 +935,17 @@ p {
     }
     
     .hero-mobile-fixed .hero-content {
+    }
+    
+    /* Page heroes mobile */
+    .page-hero {
+        padding: 60px 20px;
+        min-height: 100vh;
+        background-size: 140% !important;
+    }
+    
+    .page-hero .container {
+        margin-top: 20vh;
         padding: 20px;
         max-width: 100%;
         text-align: center;
@@ -972,6 +1005,17 @@ p {
     }
     
     .hero-mobile-fixed .hero-content {
+    }
+    
+    /* Page heroes mobile */
+    .page-hero {
+        padding: 60px 20px;
+        min-height: 100vh;
+        background-size: 140% !important;
+    }
+    
+    .page-hero .container {
+        margin-top: 20vh;
         padding: 15px;
         width: 100%;
         margin-top: 20vh;
