@@ -381,22 +381,22 @@ p {
 
 /* Individual Page Heroes */
 .about-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/about-hero.png') center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/about-hero.png?v=1779032340') center center/cover no-repeat;
     background-size: 120%;
 }
 
 .services-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/services-hero.png') center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/services-hero.png?v=1779032340') center center/cover no-repeat;
     background-size: 120%;
 }
 
 .pricing-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/pricing-hero.png') center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/pricing-hero.png?v=1779032340') center center/cover no-repeat;
     background-size: 120%;
 }
 
 .contact-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/contact-hero.png') center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/contact-hero.png?v=1779032340') center center/cover no-repeat;
     background-size: 120%;
 }
 
