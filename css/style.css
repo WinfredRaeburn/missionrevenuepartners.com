@@ -181,8 +181,8 @@ p {
 .hero-mobile-fixed {
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/hero-bg-new.png') center center/cover no-repeat;
     background-size: 120%;
-    padding: 160px 0 160px;
-    min-height: 90vh;
+    padding: 120px 0;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -904,16 +904,17 @@ p {
     }
     
     .hero-mobile-fixed {
-        padding: 80px 0 80px;
+        padding: 60px 20px;
         min-height: 100vh;
         background-size: 140%;
-        align-items: flex-start;
-        padding-top: 25vh;
+        align-items: center;
+        background-position: center center;
     }
     
     .hero-mobile-fixed .hero-content {
-        padding: 0 15px;
-        margin-top: 0;
+        padding: 20px;
+        max-width: 100%;
+        text-align: center;
     }
     
     .services-grid {
@@ -950,30 +951,45 @@ p {
     }
     
     .hero-mobile-fixed {
-        padding: 60px 0 60px;
-        background-size: 160%;
-        align-items: flex-start;
-        padding-top: 20vh;
+        padding: 40px 15px;
+        background-size: 180%;
         min-height: 100vh;
+        align-items: center;
+    }
+    
+    .hero-mobile-fixed .hero-content {
+        padding: 15px;
+        width: 100%;
     }
     
     .hero-mobile-fixed .hero-title {
-        font-size: 1.8rem;
-        line-height: 1.2;
-        margin-bottom: 0.8rem;
+        font-size: 1.6rem;
+        line-height: 1.3;
+        margin-bottom: 1rem;
     }
     
     .hero-mobile-fixed .hero-tagline {
-        font-size: 1.1rem;
-        margin-bottom: 0.8rem;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
     }
     
     .hero-mobile-fixed .hero-subtitle {
         font-size: 1rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.8rem;
+        line-height: 1.4;
     }
     
     .hero-mobile-fixed .hero-buttons {
-        gap: 0.8rem;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    
+    .hero-mobile-fixed .btn {
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 1rem;
     }
 }
