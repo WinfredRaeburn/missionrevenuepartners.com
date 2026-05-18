@@ -411,7 +411,7 @@ p {
 }
 
 .contact-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/contact-hero.png?v=1779032340') center calc(30% + 100px)/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/contact-hero.png?v=1779032340') center center/cover no-repeat;
     background-size: 120%;
     padding: 120px 0;
     min-height: 100vh;
@@ -960,13 +960,20 @@ p {
     /* Page heroes mobile - copy homepage mobile styling exactly */
     .about-hero,
     .services-hero,
-    .pricing-hero,
-    .contact-hero {
+    .pricing-hero {
         padding: 40px 20px !important;
         min-height: 100vh !important;
         background-size: 180% !important;
         align-items: center !important;
         background-position: center calc(45%) !important;
+    }
+    
+    .contact-hero {
+        padding: 40px 20px !important;
+        min-height: 100vh !important;
+        background-size: 160% !important;
+        align-items: center !important;
+        background-position: center center !important;
     }
     
     .page-hero .container {
