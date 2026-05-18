@@ -379,25 +379,45 @@ p {
     width: 100%;
 }
 
-/* Individual Page Heroes */
+/* Individual Page Heroes - Same positioning as homepage */
 .about-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/about-hero.png?v=1779032340') center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/about-hero.png?v=1779032340') center calc(30% + 100px)/cover no-repeat;
     background-size: 120%;
+    padding: 120px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .services-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/services-hero.png?v=1779032340') center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/services-hero.png?v=1779032340') center calc(30% + 100px)/cover no-repeat;
     background-size: 120%;
+    padding: 120px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pricing-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/pricing-hero.png?v=1779032340') center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/pricing-hero.png?v=1779032340') center calc(30% + 100px)/cover no-repeat;
     background-size: 120%;
+    padding: 120px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/contact-hero.png?v=1779032340') center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/contact-hero.png?v=1779032340') center calc(30% + 100px)/cover no-repeat;
     background-size: 120%;
+    padding: 120px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .page-hero h1 {
@@ -937,36 +957,42 @@ p {
     .hero-mobile-fixed .hero-content {
     }
     
-    /* Page heroes mobile - all pages */
+    /* Page heroes mobile - copy homepage mobile styling exactly */
     .about-hero,
     .services-hero,
     .pricing-hero,
     .contact-hero {
-        padding: 40px 15px !important;
+        padding: 40px 20px !important;
         min-height: 100vh !important;
-        background-size: 140% !important;
+        background-size: 180% !important;
         align-items: center !important;
+        background-position: center calc(45%) !important;
     }
     
     .page-hero .container {
-        margin-top: 0 !important;
-        padding: 20px !important;
+        padding: 15px !important;
         width: 100% !important;
+        margin: 0 auto !important;
     }
     
     .page-hero h1 {
-        font-size: 2.2rem !important;
+        font-size: 1.6rem !important;
+        line-height: 1.3 !important;
         margin-bottom: 1rem !important;
+        color: white !important;
     }
     
     .page-hero .hero-tagline {
-        font-size: 1.3rem !important;
+        font-size: 1.2rem !important;
         margin-bottom: 1rem !important;
+        color: var(--amber-gold) !important;
     }
     
     .page-hero .page-subtitle {
         font-size: 1rem !important;
-        margin-bottom: 1.5rem !important;
+        line-height: 1.4 !important;
+        margin-bottom: 1.8rem !important;
+        color: rgba(255,255,255,0.85) !important;
     }
     
     .hero-mobile-fixed .hero-title {
